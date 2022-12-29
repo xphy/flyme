@@ -6,17 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="base" />
+        <module name="baseweb" />
+        <module name="basecommon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="base" target="1.8" />
+      <module name="base (1) (com.example)" target="1.8" />
+      <module name="basecommon" target="1.8" />
+      <module name="basewe" target="1.8" />
+      <module name="baseweb" target="1.8" />
       <module name="flyme" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="base" options="-parameters" />
+      <module name="base (1) (com.example)" options="-parameters" />
+      <module name="basecommon" options="-parameters" />
+      <module name="basewe" options="-parameters" />
+      <module name="baseweb" options="-parameters" />
     </option>
   </component>
 </project>
