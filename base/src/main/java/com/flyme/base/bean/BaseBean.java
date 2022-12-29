@@ -9,5 +9,6 @@ import java.io.Serializable;
  * @modified By：
  * @version: $
  */
+
 public class BaseBean implements Serializable {
 }
