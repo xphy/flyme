@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/basecommon/basecommon.iml" filepath="$PROJECT_DIR$/basecommon/basecommon.iml" />
       <module fileurl="file://$PROJECT_DIR$/baseweb/baseweb.iml" filepath="$PROJECT_DIR$/baseweb/baseweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/flyme.iml" filepath="$PROJECT_DIR$/flyme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
     </modules>
   </component>
 </project>

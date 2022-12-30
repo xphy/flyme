@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="baseweb" />
         <module name="basecommon" />
+        <module name="baseweb" />
+        <module name="login" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -16,6 +17,7 @@
       <module name="basewe" target="1.8" />
       <module name="baseweb" target="1.8" />
       <module name="flyme" target="1.8" />
+      <module name="login" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,6 +26,7 @@
       <module name="basecommon" options="-parameters" />
       <module name="basewe" options="-parameters" />
       <module name="baseweb" options="-parameters" />
+      <module name="login" options="-parameters" />
     </option>
   </component>
 </project>

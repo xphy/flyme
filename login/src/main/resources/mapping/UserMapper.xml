@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.flyme.web.login.mapper.UserMapper">
+    <!--	<resultMap type="House" id="houseResultMap">
+            <id column="id" property="id"/>
+            <result column="hname" property="hname"/>
+            <association property="kind" javaType="Kind">
+                <id column="kid" property="id"/>
+                <result column="name" property="name"/>
+            </association>
+        </resultMap>-->
+
+    <select id="login1" resultType="com.flyme.web.login.bean.UserBean">
+        select * from user
+    </select>
+    <select id="queryUserByIf" parameterType="map" resultType="com.flyme.web.login.bean.UserBean">
+        select *
+        from user a
+        <if test="realName!=null">
+            and b.realName=#{realName}
+        </if>
+
+    </select>
+</mapper>
+
